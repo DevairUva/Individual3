@@ -33,6 +33,7 @@ function Comanda() {
      
       <div className={styles.fundo}>
         <>
+        <br />
         <h3 className='titulo3' style={{textAlign:'center', color:'#fff'}}>Veja seus pedidos Finais</h3>
         <div style={{flexDirection:'row'}}>
         {

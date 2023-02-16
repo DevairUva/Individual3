@@ -24,8 +24,8 @@ function Comandas({ hamburguer, bebida, acompanhamento, sobremesa, precoTotal })
                                     <h5>{bebida} </h5>
                                     <h5>{acompanhamento} </h5>
                                     <h5>{sobremesa} </h5>
-
-                                    <h5>R$ {precoTotal}</h5>
+                                    <br />
+                                    <h5>Total R$ {precoTotal}</h5>
                                 </Card.Text>
                                 {/* <Button variant="primary">Go somewhere</Button> */}
                             </Card.Body>
