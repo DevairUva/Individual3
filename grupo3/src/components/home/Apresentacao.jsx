@@ -1,12 +1,12 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import AstroHome from '../../assets/AstroHome.png'
-import Alien3 from '../../assets/Alien3.png'
+import AstroHome from 'https://github.com/DevairUva/Individual3/blob/main/grupo3/src/assets/AstroHome.png?raw=true'
+import Alien3 from 'https://github.com/DevairUva/Individual3/blob/main/grupo3/src/assets/alien3.png?raw=true'
 import './Apresentacao.css'
-import Xbacon from "../../assets/Xbacon.png"
-import Xburguer from "../../assets/Xburguer.png"
-import Vegetariano from "../../assets/Vegetariano.png"
-import Topo3 from "../../assets/Topo3.png"
+import Xbacon from "https://github.com/DevairUva/Individual3/blob/main/grupo3/src/assets/Xbacon.png?raw=true"
+import Xburguer from "https://github.com/DevairUva/Individual3/blob/main/grupo3/src/assets/Xburguer.png?raw=true"
+import Vegetariano from "https://github.com/DevairUva/Individual3/blob/main/grupo3/src/assets/Vegetariano.png?raw=true"
+import Topo3 from "https://github.com/DevairUva/Individual3/blob/main/grupo3/src/assets/Topo3.png?raw=true"
 import Carousel from 'react-bootstrap/Carousel';
 
 function Apresentacao() {
