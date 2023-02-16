@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import Cardapio from './routes/Cardapio';
@@ -16,7 +16,7 @@ import Comidas from './contexts/Contexts'
 
 
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   [
   
   {
