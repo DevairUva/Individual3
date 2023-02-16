@@ -12,7 +12,7 @@ function Bebidas({ nome, preco, descricao, img }) {
     };
     return (
         <>
-            <Card style={{ width: '24rem', height: '20.5rem' }} className='rosa'>
+            <Card style={{ width: '24rem', height: '26.5rem' }} className='rosa'>
                 <Card.Img variant="top" src={img} className='fotos' />
                 <Card.Body>
                     <Card.Title className='textoCentro'>{nome}</Card.Title>

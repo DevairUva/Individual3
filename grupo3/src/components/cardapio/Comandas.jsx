@@ -4,13 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 
 function Comandas({ hamburguer, bebida, acompanhamento, sobremesa, precoTotal }) {
-    // function formatValor (total){
-    //     //console.log(`Total antes->`, total);
-    //     let total = total.toFixed(2).split('.');
-    //     total[0] = total[0].split(/(?=(?:...)*$)/).join('.');
-    //     return total.join(',');
-    //   };
-
+   
     return (
         <div className="centro">
             <br />
@@ -31,7 +25,7 @@ function Comandas({ hamburguer, bebida, acompanhamento, sobremesa, precoTotal })
                                     <h5>{acompanhamento} </h5>
                                     <h5>{sobremesa} </h5>
 
-                                    <h5>R$ precoTotal</h5>
+                                    <h5>R$ {precoTotal}</h5>
                                 </Card.Text>
                                 {/* <Button variant="primary">Go somewhere</Button> */}
                             </Card.Body>
