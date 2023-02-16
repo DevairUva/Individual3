@@ -26,7 +26,7 @@ function Apresentacao() {
                   <h3 className='text-home'>
                   Experimente nossos burgueres que são de <strong><br/>outro mundo!</strong><br />
                     <strong><br />
-                      <Button className='button' variant="info" href='/cardapio'><strong>ESCOLHA O SEU</strong></Button>
+                      <Button className='button' variant="info" href='/#/pedido'><strong>ESCOLHA O SEU</strong></Button>
                     </strong>
                   </h3>
                 </div>
@@ -72,7 +72,7 @@ function Apresentacao() {
                   <h6>Preço R$ 15,00</h6>
                 </Card.Text>
                 <div className='textoCentroHome'>
-                  <Button className='button' variant="info" href='/cardapio'><strong>EU QUERO</strong></Button>
+                  <Button className='button' variant="info" href='/#/pedido'><strong>EU QUERO</strong></Button>
                 </div>
               </Card.Body>
             </Card>
@@ -88,7 +88,7 @@ function Apresentacao() {
                   <h6>Preço R$ 15,00</h6>
                 </Card.Text>
                 <div className='textoCentroHome'>
-                  <Button className='button' variant="info" href='/cardapio'><strong>EU QUERO</strong></Button>
+                  <Button className='button' variant="info" href='/#/pedido'><strong>EU QUERO</strong></Button>
                 </div>
               </Card.Body>
             </Card>
@@ -104,7 +104,7 @@ function Apresentacao() {
                   <h6>Preço R$ 15,00</h6>
                 </Card.Text>
                 <div className='textoCentroHome'>
-                  <Button className='button' variant="info" href='/cardapio'><strong>EU QUERO</strong></Button>
+                  <Button className='button' variant="info" href='/#/pedido'><strong>EU QUERO</strong></Button>
                 </div>
               </Card.Body>
             </Card>

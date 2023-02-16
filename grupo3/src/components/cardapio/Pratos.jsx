@@ -18,7 +18,7 @@ function Pratos({ hamburguer, bebidas, acompanhamentos, sobremesa }) {
                 <div className='cards'>
                     {hamburguer.map((element) => (
 
-                        <Hamburguer id={element.id} nome={element.nome} ingredientes={element.ingredientes} preco={element.preco} key={element.id}  />
+                        <Hamburguer id={element.id} nome={element.nome} ingredientes={element.ingredientes} preco={element.preco} img={element.img} key={element.id}  />
 
                     )
                     )}
@@ -28,7 +28,7 @@ function Pratos({ hamburguer, bebidas, acompanhamentos, sobremesa }) {
                     <h5 className='titulo3'>Bebidas</h5>
                     <div className='cards'>
                         {bebidas.map((element) => (
-                            <Bebidas id={element.id} nome={element.nome} preco={element.preco} key={element.id}  />
+                            <Bebidas id={element.id} nome={element.nome} preco={element.preco} img={element.img} key={element.id}  />
 
                         )
                         )}
@@ -37,7 +37,7 @@ function Pratos({ hamburguer, bebidas, acompanhamentos, sobremesa }) {
                     <h5 className='titulo3'>Acompanhamentos</h5>
                     <div className='cards'>
                         {acompanhamentos.map((element) => (
-                            <Acompanhamentos id={element.id} nome={element.nome} preco={element.preco} key={element.id} />
+                            <Acompanhamentos id={element.id} nome={element.nome} img={element.img} preco={element.preco} key={element.id} />
 
                         )
                         )}
@@ -46,7 +46,7 @@ function Pratos({ hamburguer, bebidas, acompanhamentos, sobremesa }) {
                     <h5 className='titulo3'>Sobremesas</h5>
                     <div className='cards'>
                         {sobremesa.map((element) => (
-                            <Sobremesas id={element.id} nome={element.nome} preco={element.preco} sabor={element.sabor} key={element.id}  />
+                            <Sobremesas id={element.id} nome={element.nome} img={element.img} preco={element.preco} sabor={element.sabor} key={element.id}  />
 
                         )
                         )}

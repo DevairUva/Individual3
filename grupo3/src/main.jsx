@@ -12,6 +12,7 @@ import Carrinho from './routes/Carrinho';
 import Nos from './routes/Nos';
 import Home from './routes/Home';
 import Comidas from './contexts/Contexts'
+import Comanda from './routes/Comanda';
 
 
 
@@ -39,6 +40,10 @@ const router = createHashRouter(
       {
         path: "/carrinho/:id?",
         element: <Carrinho />
+      },
+      {
+        path: "/comanda/",
+        element: <Comanda/>
       },
       {
         path: "/nos",
