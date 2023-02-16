@@ -1,12 +1,12 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import AstroHome from './../../assets/AstoHome.png'
-import Alien3 from './../../assets/alien3.png?raw=true'
+import AstroHome from './../../assets/AstroHome.png'
+import Alien3 from './../../assets/alien3.png'
 import './Apresentacao.css'
-import Xbacon from "./../../assets/Xbacon.png?raw=true"
-import Xburguer from "./../../assets/Xburguer.png?raw=true"
-import Vegetariano from "./../../assets/Vegetariano.png?raw=true"
-import Topo3 from "./../../assets/Topo3.png?raw=true"
+import Xbacon from "./../../assets/Xbacon.png"
+import Xburguer from "./../../assets/Xburguer.png"
+import Vegetariano from "./../../assets/Vegetariano.png"
+import Topo3 from "./../../assets/Topo3.png"
 import Carousel from 'react-bootstrap/Carousel';
 
 function Apresentacao() {
