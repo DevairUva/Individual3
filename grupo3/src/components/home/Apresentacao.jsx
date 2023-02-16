@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import AstroHome from '../../assets/AstroHome.png'
-import Alien3 from '../../assets/Alien3.png'
+//import Alien3 from '../../assets/Alien3.png'
 import './Apresentacao.css'
 import Xbacon from "../../assets/Xbacon.png"
 import Xburguer from "../../assets/Xburguer.png"
