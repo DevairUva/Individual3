@@ -30,7 +30,7 @@ function Apresentacao() {
                     </strong>
                   </h3>
                 </div>
-                <img src={AstroHome} alt="astronauta" className='astroHome' />
+                <img src={AstroHome} type='image/png' alt="astronauta" className='astroHome' />
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -39,6 +39,7 @@ function Apresentacao() {
               className="d-block w-100"
               src={Topo3}
               alt="First slide"
+              type='image/png'
             />
             <Carousel.Caption>
               <div className='centroHome'>
@@ -52,7 +53,7 @@ function Apresentacao() {
                     </strong>
                   </h3>
                 </div>
-                <img src={Alien3} alt="astronauta" className='astroHome2' />
+                <img src={Alien3} type='image/png' alt="astronauta" type= className='astroHome2' />
               </div> 
             </Carousel.Caption>
           </Carousel.Item>
@@ -63,7 +64,7 @@ function Apresentacao() {
         <div className='centroHome'>
           <div className='colunasHome'>
             <Card style={{ width: '15rem', height: '20.5rem' }} className='rosa'>
-              <Card.Img variant="top" src={Xbacon} className='fotosHome' />
+              <Card.Img variant="top" src={Xbacon} type='image/png' className='fotosHome' />
               <Card.Body>
                 <Card.Title className='textoCentroHome'>X-Bacon</Card.Title>
                 <Card.Text className='textoCentroHome'>
@@ -78,7 +79,7 @@ function Apresentacao() {
           </div>
           <div className='colunasHome'>
             <Card style={{ width: '15rem', height: '20.5rem' }} className='rosa'>
-              <Card.Img variant="top" src={Xburguer} className='fotosHome' />
+              <Card.Img variant="top" type='image/png' src={Xburguer} className='fotosHome' />
               <Card.Body>
                 <Card.Title className='textoCentroHome'>X-Burger</Card.Title>
                 <Card.Text className='textoCentroHome'>
@@ -94,7 +95,7 @@ function Apresentacao() {
           </div>
           <div className='colunasHome'>
             <Card style={{ width: '15rem', height: '20.5rem' }} className='rosa'>
-              <Card.Img variant="top" src={Vegetariano} className='fotosHome' />
+              <Card.Img variant="top" type='image/png' src={Vegetariano} className='fotosHome' />
               <Card.Body>
                 <Card.Title className='textoCentroHome'>Vegetariano</Card.Title>
                 <Card.Text className='textoCentroHome'>
