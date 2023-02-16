@@ -76,7 +76,7 @@ function Tabela({id}) {
         setShow(false)
         setShow2(true)
         setTimeout(function() {
-          window.location.href = "http://127.0.0.1:5173/#/comanda";
+          window.location.href = "http://127.0.0.1:5173/#/comanda/";
       }, 4000);
       }
     } catch (e) {
@@ -115,7 +115,7 @@ function getTotal(){}
         <Table striped>
           <thead>
             <tr>
-              <th>Sanduíche</th>
+              <th>Itens</th>
               <th>Valor</th>
               
             </tr>
@@ -123,7 +123,7 @@ function getTotal(){}
           <tbody>
             { Dados.map((item)=>(
                <tr>
-               <td>{item.nome == ""?null:item.nome}</td>
+               <td>{item.nome == ""?"Vazio":item.nome}</td>
                <td>{formatValor(item.preco) ==""?null:formatValor(item.preco)}</td>
                
              </tr>

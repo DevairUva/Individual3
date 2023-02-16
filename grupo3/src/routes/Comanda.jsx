@@ -37,7 +37,7 @@ function Comanda() {
         <h3 className='titulo3' style={{textAlign:'center', color:'#fff'}}>Veja seus pedidos Finais</h3>
         <div style={{flexDirection:'row'}}>
         {
-            dados.map((item)=>(<Comandas hamburguer={item.hamburguer} bebida={item.bebida} acompanhamento={item.acompanhamento} sobremesa={item.sobremesa} precoTotal={item.preco_total==""?item.preco_total="0":item.preco_total}/>))
+            dados.map((item)=>(<Comandas hamburguer={item.hamburguer} bebida={item.bebida} acompanhamento={item.acompanhamento} sobremesa={item.sobremesa} precoTotal={item.preco_total==""?item.preco_total="0":item.preco_total} id={item.id}/>))
         }
         </div>
        

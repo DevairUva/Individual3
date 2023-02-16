@@ -16,7 +16,7 @@ function Header() {
             <Nav><Link to="/pedido" className='links'> Pedido </Link></Nav>
             <Nav><Link to="/comanda" className='links'> Comanda </Link></Nav>
             <Nav><Link to="/nos" className='links'> Contato </Link></Nav>
-            <Nav><Link to="/carrinho" className='links'> <i className="fa fa-shopping-cart"></i> </Link></Nav>
+            <Nav><Link to="/carrinho/4" className='links'> <i className="fa fa-shopping-cart"></i> </Link></Nav>
           </Nav>
         </Container>
       </Navbar>
