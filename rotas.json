@@ -14,14 +14,14 @@
                     "nome": "X-Burguer",
                     "ingredientes": "Pão, carne, queijo e picles",
                     "preco": 12,
-                    "img": "url(/grupo3/src/assets/Xburguer.png)"
+                    "img": "https://assets.unileversolutions.com/recipes-v2/230411.jpg"
                 },
                 {
                     "id": 3,
                     "nome": "Vegetariano",
                     "ingredientes": "Pão e uma incrível salada",
                     "preco": 11,
-                    "img": "url(/grupo3/src/assets/Vegetariano.png)"
+                    "img": "https://guiadacozinha.com.br/wp-content/uploads/2020/03/hamburguer-de-quinoa-vegetariano.jpg"
                 }        
             ]
         },
@@ -29,24 +29,24 @@
             "bebidas": [
                 {
                     "id": 1,
-                    "nome": "Coca",
+                    "nome": "Coca Cola",
                     "ingredientes": "Refrigerante de cola",
                     "preco": 11,
-                    "img": "url(/grupo3/src/assets/Coca.png)"
+                    "img": "https://io.convertiez.com.br/m/superpaguemenos/shop/products/images/14912/medium/refrigerante-coca-cola-2l_76046.png"
                 },
                 {
                     "id": 2,
-                    "nome": "Guarana",
+                    "nome": "Guaraná Antarctica",
                     "ingredientes": "Refrigerante de guaraná",
                     "preco": 10,
-                    "img": "url(/grupo3/src/assets/Guarana.png)"
+                    "img": "https://img.megaboxatacado.com.br/produto/1000X1000/202039_10953.jpg"
                 },
                 {
                     "id": 3,
                     "nome": "Pepsi",
                     "ingredientes": "Refrigerante de cola",
                     "preco": 10,
-                    "img": "url(/grupo3/src/assets/Pepsi.png)"
+                    "img": "https://www.varanda.com.br/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/r/e/ref-pepsi-2l-7892840800000.jpg"
                 }        
             ]
         },
@@ -57,21 +57,21 @@
                     "nome": "Sorvete",
                     "sabor": "3 bolas (sabores)",
                     "preco": 9,
-                    "img": "url(/grupo3/src/assets/Napolitano.png)"
+                    "img": "https://www.sabornamesa.com.br/media/k2/items/cache/8dfcf9615714a448ac03e0f92b733d6b_XL.jpg"
                 },
                 {
                     "id": 2,
                     "nome": "Açai",
                     "sabor": "Natural ou morango",
                     "preco": 10,
-                    "img": "url(/grupo3/src/assets/Acaii.png)"
+                    "img": "https://www.sabornamesa.com.br/media/k2/items/cache/b7e870fe16253b03d4f5e4eca7c887cf_XL.jpg"
                 },
                 {
                     "id": 3,
                     "nome": "salada de frutas",
                     "sabor": "Frutas da estação",
                     "preco": 7,
-                    "img": "url(/grupo3/src/assets/Salada.png)"
+                    "img": "https://s2.glbimg.com/NpB1pxuOKTyalsafiCw41yo6edo=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/q/A/W2sd6KR1iuDzpRlbsmXw/salada-de-frutas.jpg"
                 }        
             ]
         },
@@ -82,21 +82,21 @@
                     "nome": "batata frita",
                     "ingredientes": "Batata frita palito",
                     "preco": 9,
-                    "img": "url(/grupo3/src/assets/Batata.png)"
+                    "img": "https://segredosdacomida.com.br/wp-content/uploads/2022/10/Batata-frita-com-farinha-de-trigo-1200x900.jpg"
                 },
                 {
                     "id": 2,
                     "nome": "anel de cebola",
                     "ingredientes": "Porção com 10 unidades",
                     "preco": 10,
-                    "img": "url(/grupo3/src/assets/Cebola.png)"
+                    "img": "https://sabordasreceitas.com.br/wp-content/uploads/2021/11/Receita-de-anel-de-cebola-empanado-850x560.jpg"
                 },
                 {
                     "id": 3,
                     "nome": "tekitos",
                     "ingredientes": "Porção com 10 unidades",
                     "preco": 7,
-                    "img": "url(/grupo3/src/assets/Tekitos.png)"
+                    "img": "https://img.itdg.com.br/tdg/images/recipes/000/162/798/323819/323819_original.jpg?mode=crop&width=710&height=400"
                 }        
             ]
         }
@@ -133,7 +133,7 @@
             "hamburguer": "x-bacon",
             "bebida": "coda",
             "sobremesa": "sorvete",
-            "preco total": ""
+            "preco_total": 0
         }
     ]
 }
