@@ -53,7 +53,7 @@ function Apresentacao() {
                     </strong>
                   </h3>
                 </div>
-                <img src={Alien3} type='image/png' alt="astronauta" type= className='astroHome2' />
+                <img src={Alien3} type='image/png' alt="astronauta" className='astroHome2' />
               </div> 
             </Carousel.Caption>
           </Carousel.Item>
