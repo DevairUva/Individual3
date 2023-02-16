@@ -13,6 +13,7 @@ function Tabela({id}) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const [Dados,setDados] = useState([]);
+ const [removeLoading, setRemoveLoading]= useState(false)
   
   useEffect(() => {
     loadId()
@@ -30,6 +31,7 @@ function Tabela({id}) {
       if (resp.status == 200 || 201) {
         const Dados1 = await resp.json();
         setDados(Dados1);
+        setRemoveLoading(true)
       }
 
     } catch (e) {
