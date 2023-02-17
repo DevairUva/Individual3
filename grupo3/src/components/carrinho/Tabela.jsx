@@ -78,7 +78,7 @@ function Tabela({ id }) {
         setShow(false)
         setShow2(true)
         setTimeout(function () {
-          window.location.href = "http://127.0.0.1:5173/#/comanda/";
+          window.location.href = "https://projeto-individual-3-uy0v.onrender.com/comanda";
         }, 4000);
       }
     } catch (e) {
