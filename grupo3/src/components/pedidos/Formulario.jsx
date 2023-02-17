@@ -217,13 +217,12 @@ function Formulario() {
                   <Modal.Title>Pedido adicionado ao carrinho!</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                  Seu pedido foi enviado ao carrinho.<br />
-                  Veja seu(s) pedido na aba "carrinho".
+                  Seu pedido foi salvo!
                 </Modal.Body>
                 <Modal.Footer>
-                  {/* <Button variant="secondary" onClick={handleClose}>
-                    <Link to={`/carrinho/${id}`}><Button variant="info">Carrinho</Button></Link>
-                  </Button> */}
+                  <Button variant="danger" onClick={handleClose}>
+                    Cancelar
+                  </Button>
                   <Link to={`/carrinho/${id}`}><Button variant="info">Carrinho</Button></Link>
                 </Modal.Footer>
               </Modal>
