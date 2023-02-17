@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    font-family: 'Ubuntu', sans-serif;
 
 }
 
@@ -18,6 +19,7 @@
 
 .textoCentro{
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .rosa{

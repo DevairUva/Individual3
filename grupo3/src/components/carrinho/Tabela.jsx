@@ -111,7 +111,7 @@ function Tabela({ id }) {
     <Card className="text-darkCarrinho">
       <Card.Img className='imagem rounded-0' src={Xbacon} alt="Card image" />
       <Card.ImgOverlay>
-        <h2 className='textoCentro'>Carrinho</h2>
+        {/* <h2 className='textoCentro'>Carrinho</h2> */}
         <div className='centroCarrinho'>
           <div>
             <img src={gif1}/>
