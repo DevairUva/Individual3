@@ -31,3 +31,11 @@ input{
 .botao-clique:hover{
   color: black;
 }
+
+.text-darkCarrinho {
+  border: none;
+}
+
+/* .textoTabela{
+  color: #fff;
+} */

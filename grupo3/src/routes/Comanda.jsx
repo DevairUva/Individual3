@@ -31,7 +31,7 @@ function Comanda() {
   }
     return (
      
-      <div className={styles.fundo}>
+      <div className={styles.fundoCarrinho}>
         <>
         <br />
         <h3 className='titulo3' style={{textAlign:'center', color:'#fff'}}>Veja seus pedidos Finais</h3>

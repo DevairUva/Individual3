@@ -1,7 +1,11 @@
-.fundo{
+.fundo {
     background: #FFFFFF url("../assets/Nos2 (2).png") no-repeat left top;
     background-size: cover;
     height: 1700px;
-    }
+}
 
-    
+.fundoCarrinho {
+    background: #FFFFFF url("../assets/Stars.jpg") no-repeat left top;
+    background-size: cover;
+    height: 1700px;
+}

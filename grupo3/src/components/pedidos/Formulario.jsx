@@ -156,8 +156,7 @@ function Formulario() {
     <Comidas.Provider value={{}}>
       <div className='fundo-pedido'>
         <div className='titulo'>
-          <br />
-          <h2>Monte o seu combo</h2>
+          <h2>Monte o seu combo</h2><br />
         </div>
         <div className='colunas'>
           <div className='tabelaF'>
@@ -237,31 +236,55 @@ function Formulario() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>X-Bacon</Accordion.Header>
                 <Accordion.Body>
-                  Pão, carne, queijo, presunto e bacon.
+                  Pão, carne, queijo e bacon
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>X-Burguer</Accordion.Header>
                 <Accordion.Body>
-                  Pão, carne, queijo e picles.
+                  Pão, carne, queijo e picles
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>Vegetariano</Accordion.Header>
                 <Accordion.Body>
-                  Pão e planta.
+                  Pão e uma incrível salada
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
-                <Accordion.Header>Sorvete</Accordion.Header>
+                <Accordion.Header>Batata frita</Accordion.Header>
                 <Accordion.Body>
-                  Napolitano.
+                  Batata frita palito
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="4">
+                <Accordion.Header>Anel de cebola</Accordion.Header>
+                <Accordion.Body>
+                  Porção com 10 unidades
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>Tekitos</Accordion.Header>
+                <Accordion.Body>
+                  Porção com 10 unidades
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="6">
+                <Accordion.Header>Sorvete</Accordion.Header>
+                <Accordion.Body>
+                  3 bolas (sabores)
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="7">
+                <Accordion.Header>Açaí</Accordion.Header>
+                <Accordion.Body>
+                  Natural ou morango
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="8">
                 <Accordion.Header>Salada de frutas</Accordion.Header>
                 <Accordion.Body>
-                  Maçã, banana, mamão e laranja.
+                  Frutas da estação
                 </Accordion.Body>
               </Accordion.Item>
 

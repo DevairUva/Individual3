@@ -12,7 +12,7 @@ function Pratos({ hamburguer, bebidas, acompanhamentos, sobremesa }) {
     return (
         <div className="centro">
             <br />
-            
+            <h2 className='titulo2'>Cardápio</h2>
             <div>
                 <h5 className='titulo2'>Hambúrgueres</h5>
                 <div className='cards'>
