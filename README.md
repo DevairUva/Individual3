@@ -8,6 +8,9 @@ O projeto intitulado Sendo servido é uma proposta do curso de Desenvolvimento W
 
 O tema escolhido para o site foi hamburgueria. O site foi desenvolvido para realizar o pedido de uma hamburgueria, onde você pode visualizar todos itens que estão à venda no cardápio, adicionar itens em sua comanda, editar e excluir. Foi implementada uma simulação de sistema de carrinho, onde você consegue adicionar o seu pedido ao carrinho, ir para o formulário de compra, e enfim, finalizar a sua compra.
 
+![image](https://user-images.githubusercontent.com/113737080/219779791-c4f2e143-adaf-4c37-bcc3-a4466ab777af.png)
+
+
 📑 Passo a passo
 
 Este projeto foi criado com o React App através do Vite.
