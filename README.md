@@ -25,6 +25,7 @@ Saiba Mais
 Saiba mais na documentação do React App e do Vite.
 
 🛠️ Tecnologias utilizadas
+
 No projeto foi utilizado HTML5, CSS3, Javascript, BOOTSTRAP, React e Json-Server:
 
 📄 Versão
