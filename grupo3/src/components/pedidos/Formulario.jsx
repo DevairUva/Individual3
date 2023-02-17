@@ -221,9 +221,9 @@ function Formulario() {
                   Veja seu(s) pedido na aba "carrinho".
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button variant="secondary" onClick={handleClose}>
-                    Fechar
-                  </Button>
+                  {/* <Button variant="secondary" onClick={handleClose}>
+                    <Link to={`/carrinho/${id}`}><Button variant="info">Carrinho</Button></Link>
+                  </Button> */}
                   <Link to={`/carrinho/${id}`}><Button variant="info">Carrinho</Button></Link>
                 </Modal.Footer>
               </Modal>
