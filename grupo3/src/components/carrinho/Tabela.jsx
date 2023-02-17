@@ -7,6 +7,8 @@ import Modal from 'react-bootstrap/Modal';
 import { Alert } from 'react'
 import Card from 'react-bootstrap/Card';
 import Xbacon from '../../assets/Carrinho2.png'
+import gif1 from '../../assets/gif1.gif'
+import gif2 from '../../assets/gif2.gif'
 
 function Tabela({ id }) {
 
@@ -109,9 +111,11 @@ function Tabela({ id }) {
     <Card className="text-darkCarrinho">
       <Card.Img className='imagem rounded-0' src={Xbacon} alt="Card image" />
       <Card.ImgOverlay>
-        <div className='centro'>
-          <h2>Carrinho</h2>
-          <br />
+        <h2 className='textoCentro'>Carrinho</h2>
+        <div className='centroCarrinho'>
+          <div>
+            <img src={gif1}/>
+          </div>
           <div className='tabela'>
             <Table striped className='textoTabela'>
               <thead>
@@ -132,9 +136,12 @@ function Tabela({ id }) {
 
                 <tr>
                   {/* <td>3</td> */}
-                  <td colSpan={2}><strong>Valor total</strong></td>
+                  <td><strong>Valor total</strong></td>
                   <td><strong>R$ {formatValor(showTotal())}</strong></td>
-                  <td>
+                </tr>
+                <tr>
+
+                  <td colSpan={2}>
                     <Button variant="info" className='botao-clique' onClick={handleShow}>
                       <strong>FINALIZAR PEDIDO</strong>
                     </Button>
@@ -181,11 +188,8 @@ function Tabela({ id }) {
                       </Modal.Footer>
                     </Modal>
 
-
-
-
                     <Modal show={show2} onHide={handleClose}>
-                      <Modal.Title className='modalTabela'>Pedido Enviado,Obrigado pela compra, enviaremos um e-mail ou um zap confirmando o pedido!</Modal.Title>
+                      <Modal.Title className='modalTabela'>Pedido Enviado. Obrigado pela compra!<br /><br />👽👏🥳🥰👨‍🚀<br /><br />Enviaremos um e-mail ou um zap confirmando o pedido!<br /><br />👽🍟🍔🍨🍹👨‍🚀<br /></Modal.Title>
                     </Modal>
                   </td>
                 </tr>

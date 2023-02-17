@@ -1,12 +1,12 @@
 .tabela{
-  width: 900px;
+  width: 600px;
   text-align: center;
   color: #fff;
 }
 
-.centro{
+.centroCarrinho{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -36,4 +36,18 @@ input{
 
 .modalTabela{
   text-align: center;
+}
+
+.aliengif{
+  height: 60px;
+  width: 100px;
+}
+
+
+th{
+  width: 200px;
+}
+
+td{
+  width: 200px;
 }
