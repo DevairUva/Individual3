@@ -12,9 +12,11 @@ Foi utilizado também o seguinte Json-server: https://spaceburguersquad1.onrende
 
 Para executar o projeto você deve digitar em seu terminal:
 
-npm install
+<strong>npm install</strong>
+
 Faz a instalação de pacotes, gerenciamento da versões e gerenciamento de dependências necessárias para executar o projeto.
-npm run dev
+
+<strong>npm run dev</strong>
 Executa o aplicativo no modo de desenvolvimento. Abra http://localhost:5173 para visualizá-lo em seu navegador.
 A página será recarregada quando você fizer alterações. Você também pode ver quaisquer erro no seu console.
 
