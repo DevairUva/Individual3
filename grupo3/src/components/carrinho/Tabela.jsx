@@ -185,7 +185,7 @@ function Tabela({ id }) {
 
 
                     <Modal show={show2} onHide={handleClose}>
-                      <Modal.Title>Pedido Enviado,Obrigado pela compra, enviaremos um e-mail ou um zap confirmando o pedido!</Modal.Title>
+                      <Modal.Title className='modalTabela'>Pedido Enviado,Obrigado pela compra, enviaremos um e-mail ou um zap confirmando o pedido!</Modal.Title>
                     </Modal>
                   </td>
                 </tr>

@@ -250,7 +250,7 @@ function Formulario() {
                   Pão e uma incrível salada
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="3">
+              {/* <Accordion.Item eventKey="3">
                 <Accordion.Header>Batata frita</Accordion.Header>
                 <Accordion.Body>
                   Batata frita palito
@@ -267,7 +267,7 @@ function Formulario() {
                 <Accordion.Body>
                   Porção com 10 unidades
                 </Accordion.Body>
-              </Accordion.Item>
+              </Accordion.Item> */}
               <Accordion.Item eventKey="6">
                 <Accordion.Header>Sorvete</Accordion.Header>
                 <Accordion.Body>

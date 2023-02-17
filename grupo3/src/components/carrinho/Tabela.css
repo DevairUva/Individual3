@@ -9,8 +9,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-  
-    
 }
 
 .botao{
@@ -36,6 +34,6 @@ input{
   border: none;
 }
 
-/* .textoTabela{
-  color: #fff;
-} */
+.modalTabela{
+  text-align: center;
+}
