@@ -12,9 +12,7 @@ function Comanda() {
   }, [])
   async function loadComanda() {
     try {
-      const resp = await fetch(`https://spaceburguersquad1.onrender.com/#/comanda`, {
-      // const resp = await fetch(`https://projeto-individual-3-uy0v.onrender.com/comanda`, {
-
+      const resp = await fetch(`https://projeto-individual-3-uy0v.onrender.com/comanda`, {
         method: 'GET',
       });
       console.log('resposta fetch->', resp)
