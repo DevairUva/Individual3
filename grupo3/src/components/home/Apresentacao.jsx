@@ -49,7 +49,7 @@ function Apresentacao() {
                   Conheça nosso cardápio <br/>e faça <strong>uma viagem espacial.</strong><br />
                     <strong>
                       <br />
-                      <Button className='button' variant="info" href='/cardapio'><strong>VIAJAR AGORA</strong></Button>
+                      <Button className='button' variant="info" href='/#/pedido'><strong>VIAJAR AGORA</strong></Button>
                     </strong>
                   </h3>
                 </div>
